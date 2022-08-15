@@ -1,8 +1,5 @@
 from setuptools import setup
 
-with open("requirements.txt", encoding="utf-8") as r:
-    requires = [i.strip() for i in r]
-
 setup(
     name='pyrorouter',
     version='0.1.0',
@@ -13,7 +10,7 @@ setup(
     license="LGPLv3",
     packages=['pyrorouter'],
     python_requires="~=3.7",
-    install_requires=requires,
+    install_requires=["pyrogram"],
 
     keywords="pyrogram telegram chat messenger mtproto api client library python",
     classifiers=[
