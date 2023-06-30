@@ -8,7 +8,7 @@ on:
 
 jobs:
   release:
-    name: Release Package
+    name: Release Package Test!
     runs-on: ubuntu-latest
 
     steps:
