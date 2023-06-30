@@ -1,9 +1,9 @@
 [tool.poetry]
 name = "pyrorouter"
-version = "0.1.1"
+version = "0.1.2"
 description = "A simple router for Pyrogram"
 authors = ["Łukasz Tshipenchko <dev@zxc.sx>"]
-license = "GPLv3"
+license = "LGPLv3"
 readme = "README.md"
 keywords = ["router", "pyrogram"]
 
